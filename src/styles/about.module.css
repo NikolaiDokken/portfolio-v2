@@ -1,0 +1,25 @@
+.about h2 {
+	font-size: 3em;
+}
+
+.about h3 {
+	margin-top: 20px;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+.about p {
+	margin: 0;
+}
+
+.divider {
+	border-radius: 1px;
+	height: 2px;
+	width: 100%;
+	background-image: linear-gradient(
+		to right,
+		rgb(0, 132, 255),
+		rgba(0, 132, 255, 0)
+	);
+	margin-bottom: 10px;
+}
