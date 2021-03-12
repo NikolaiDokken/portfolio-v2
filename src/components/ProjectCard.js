@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/projects.module.css";
-import getPrefixedPath from "../getPrefixedPath";
 
 export default function ProjectCard({ project }) {
 	const { title, stack, thumb, color } = project.frontmatter;
@@ -20,7 +19,7 @@ export default function ProjectCard({ project }) {
 		>
 			<div className={styles.imageContainer}>
 				<img
-					src={getPrefixedPath(thumb)}
+					src={thumb}
 					style={{ maxWidth: "100%", maxHeight: "100%" }}
 					alt="telemedisin app"
 				/>

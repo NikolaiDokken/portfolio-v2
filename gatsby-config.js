@@ -26,5 +26,4 @@ module.exports = {
 			},
 		},
 	],
-	pathPrefix: "/portfolio-v2",
 };
