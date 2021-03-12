@@ -14,6 +14,6 @@ Dette er min **bacheloroppgave**. Oppgaven ble skrevet for, og i samarbeid med, 
 
 ### Oppgaven
 
-Oppgaven
-Å utvikle en cross-platform mobilapp for Infiniwell AS var min **Bacheloroppgave**. På oppdrag fra Infiniwell AS skulle vi utvikle en app til både iOS og Android som skulle komplementere
-Infiniwell's eksisterende system Sentio. Resultatet ble SentioApp, en app som lar helsepersonell se sanntidsdata fra pasientmonitorer tilkoblet sine pasienter.
+Oppgaven vår var å utvikle en **cross-platform** app til både iOS og Android som skulle komplementere Infiniwell's eksisterende system Sentio. For Infiniwell var tilgang på data strømmet fra pasientmonitoren, samt trend-data, det viktigste. I tillegg var poenget med en mobilapplikasjon at helsepersonell skulle kunne motta varslinger dersom noe var galt.
+
+Resultatet ble **SentioApp**, en app som lar helsepersonell **se sanntidsdata** fra pasientmonitorer tilkoblet sine pasienter. Appen streamer live data, og viser en pasients trend-data. Den gir mulighet for å varsle helsepersonell dersom noe går galt, i tillegg til at leger og sykepleiere kan sende meldinger til hverandre, enten i en privat **chat**, i et team, eller i en chat tilknyttet en pasient. Bildene over er hentet direkte fra appen.

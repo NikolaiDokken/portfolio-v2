@@ -6,7 +6,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 export default function ProjectDetails({ data }) {
 	const { html } = data.markdownRemark;
-	const { title, stack, featImg } = data.markdownRemark.frontmatter;
+	const { title, stack, featImg, github } = data.markdownRemark.frontmatter;
 
 	return (
 		<Layout>
@@ -18,7 +18,16 @@ export default function ProjectDetails({ data }) {
 					</Link>
 				</div>
 				<h2>{title}</h2>
-				<h3>{stack}</h3>
+				<div style={{ display: "flex", flexDirection: "row" }}>
+					<h3>{stack}</h3>
+					<a href={github} target="_blank" rel="noreferrer">
+						<img
+							src="/github.png"
+							style={{ width: 40, height: 40, color: "white" }}
+							alt="github logo"
+						></img>
+					</a>
+				</div>
 				<div className={styles.imageContainer}>
 					<GatsbyImage
 						image={featImg.childImageSharp.gatsbyImageData}
@@ -43,6 +52,7 @@ export const query = graphql`
 						gatsbyImageData(layout: CONSTRAINED)
 					}
 				}
+				github
 			}
 		}
 	}
