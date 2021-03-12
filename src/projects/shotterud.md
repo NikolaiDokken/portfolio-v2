@@ -3,7 +3,7 @@ title: Shotterud
 stack: HTML, JavaScript & CSS
 slug: shotterud
 color: orange
-thumb: /projects/speaker.svg
+thumb: /thumbs/speaker.svg
 featImg: ../images/featured/shotterud.png
 date: "2020-02-20T12:00:00"
 ---

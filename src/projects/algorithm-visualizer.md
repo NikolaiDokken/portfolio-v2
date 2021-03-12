@@ -2,7 +2,7 @@
 title: Algoritmevisualisering
 stack: React & CSS
 slug: algorithm-visualizer
-thumb: /projects/nodes.svg
+thumb: /thumbs/nodes.svg
 featImg: ../images/featured/algovis.png
 color: red
 date: "2019-11-25T12:00:00"

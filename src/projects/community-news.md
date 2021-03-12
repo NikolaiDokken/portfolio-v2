@@ -2,7 +2,7 @@
 title: Nyhetsside
 stack: React, Node Express
 slug: community-news
-thumb: /projects/news.svg
+thumb: /thumbs/news.svg
 featImg: ../images/featured/communitynews.png
 color: blue
 date: "2019-11-22T12:00:00"

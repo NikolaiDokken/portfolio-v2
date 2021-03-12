@@ -2,7 +2,7 @@
 title: Mobilapp for Telemedisin
 stack: React Native (Expo) & Django
 slug: sentio-app
-thumb: /projects/heart-rate.svg
+thumb: /thumbs/heart-rate.svg
 featImg: ../images/featured/sentioapp.png
 color: blue
 date: "2020-08-20T12:00:00"
