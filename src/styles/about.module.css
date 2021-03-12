@@ -61,3 +61,11 @@
 	margin-left: -46px;
 	margin-top: 30px;
 }
+
+.hobbies ul {
+	list-style-position: inside;
+}
+
+.hobbies li {
+	margin: 8px 0;
+}

@@ -115,6 +115,8 @@ footer p {
 }
 
 .hamburger {
+	background: none;
+	border: none;
 	position: absolute;
 	display: inline-block;
 	cursor: pointer;

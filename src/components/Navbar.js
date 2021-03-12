@@ -28,7 +28,7 @@ export default function Navbar() {
 				</div>
 			) : (
 				<div className="links">
-					<div
+					<button
 						id="hamburger"
 						className="hamburger"
 						onClick={toggleNav}
@@ -36,7 +36,7 @@ export default function Navbar() {
 						<div className="bar1"></div>
 						<div className="bar2"></div>
 						<div className="bar3"></div>
-					</div>
+					</button>
 					<div id="sidenav" className="sidenav">
 						<Link to="/">Hjem</Link>
 						<Link to="/projects/">Prosjekter</Link>

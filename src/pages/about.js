@@ -2,15 +2,26 @@ import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/about.module.css";
 import jobs from "../experience/jobs.json";
+import education from "../experience/education.json";
 import moment from "moment";
 
 export default function About() {
 	return (
 		<Layout>
 			<div className={styles.about}>
-				<h2>Dette er meg</h2>
+				<h2>
+					Dette er meg{" "}
+					<span role="img" aria-label="me">
+						👨🏼‍💼
+					</span>
+				</h2>
 				<section>
-					<h3>Erfaring</h3>
+					<h3>
+						Erfaring -{" "}
+						<span role="img" aria-label="work-experience">
+							💼
+						</span>
+					</h3>
 					<div className={styles.divider} />
 					{jobs
 						.sort((a, b) => {
@@ -28,24 +39,63 @@ export default function About() {
 						))}
 				</section>
 				<section>
-					<h3>Utdanning</h3>
+					<h3>
+						Utdanning -{" "}
+						<span role="img" aria-label="education">
+							🎓
+						</span>
+					</h3>
 					<div className={styles.divider} />
-					<p>2015 - 2018 Nadderud Videregående Skole</p>
-					<p>
-						2018 - 2021 Dataingeniør ved Norges
-						teknisk-naturvitenskapelige universitet
-					</p>
+					{education
+						.sort((a, b) => {
+							return new Date(b.start) - new Date(a.start);
+						})
+						.map((edu, index) => (
+							<div key={index}>
+								<JobRow job={edu} />
+								{index !== education.length - 1 ? (
+									<div className={styles.subdivider} />
+								) : (
+									""
+								)}
+							</div>
+						))}
+				</section>
+				<section className={styles.hobbies}>
+					<h3>
+						Hobbyer og interesser -{" "}
+						<span role="img" aria-label="hobbies and interests">
+							🎿
+						</span>
+					</h3>
+					<div className={styles.divider} />
+					<ul>
+						<li>
+							Ski: På vinteren elsker jeg å stå utenfor løypene
+						</li>
+						<li>
+							Båt: Som stolt snekke-eier, trives jeg på sjøen, men
+							også med å pusse båt{" "}
+						</li>
+						<li>
+							IT: Har alltid vært en stor interesse. Uten den
+							hadde ikke denne siden eksistert
+						</li>
+					</ul>
 				</section>
 				<section>
-					<h3>Favoritt operativsystem?</h3>
+					<h3>
+						Favoritt operativsystem -{" "}
+						<span role="img" aria-label="favourite os">
+							💻
+						</span>
+					</h3>
 					<div className={styles.divider} />
 					<p>
-						Alt går. For tiden har jeg en stasjonær maskin som
-						kjører Windows, on Mac som dual-booter linux. Alle har
-						sin fordel, men om jeg skulle valgt én til
-						programmering, hadde jeg valgt macOS. I tillegg til å
-						være ekstremt brukervennlig kombinerer den det beste fra
-						Windows og linux.
+						Alt går. Om jeg skulle valgt én til programmering, hadde
+						jeg valgt macOS. I tillegg til å være ekstremt
+						brukervennlig kombinerer den det beste fra Windows og
+						linux.
 					</p>
 					<p>Fun fact: Denne nettsiden bruker ubuntu-fonten</p>
 				</section>
