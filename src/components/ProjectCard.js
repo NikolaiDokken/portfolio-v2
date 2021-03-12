@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/projects.module.css";
 
 export default function ProjectCard({ project }) {
-	const { title, stack, image, color } = project.frontmatter;
+	const { title, stack, thumb, color } = project.frontmatter;
 	return (
 		<div
 			className={`${styles.card} ${
@@ -19,7 +19,7 @@ export default function ProjectCard({ project }) {
 		>
 			<div className={styles.imageContainer}>
 				<img
-					src={image}
+					src={thumb}
 					style={{ maxWidth: "100%", maxHeight: "100%" }}
 					alt="telemedisin app"
 				/>

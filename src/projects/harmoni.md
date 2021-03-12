@@ -1,9 +1,11 @@
 ---
 title: Harmoni - Eventplanlegging
-stack: React, Express with Sequilize
+stack: React, Node Express med Sequilize
 slug: harmoni
-image: /location.svg
+thumb: /projects/location.svg
+featImg: ../images/featured/harmoni.png
 color: green
+date: "2020-01-20T12:00:00"
 ---
 
 ### Digitaliserer eventbransjen

@@ -3,7 +3,8 @@ import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/home.module.css";
 
-export default function Home() {
+export default function Home({ data }) {
+	console.log(data);
 	return (
 		<Layout>
 			<section className={styles.header}>
@@ -18,8 +19,7 @@ export default function Home() {
 						<strong>Gatsby</strong>. Den er skrevet i{" "}
 						<strong>React</strong>, men Gatsby sin prekonfigurasjon
 						gjør denne siden veldig rask*! Dessuten lar den meg
-						hente inn data fra ett <strong>GraphQL</strong>{" "}
-						data-lag.
+						hente inn data fra et <strong>GraphQL</strong> data-lag.
 					</p>
 					<p className={styles.footnote}>*(forhåpentligvis)</p>
 					<Link className={styles.btn} to="/projects">
@@ -28,7 +28,7 @@ export default function Home() {
 				</div>
 				<div style={{ textAlign: "center" }}>
 					<img
-						src="/webpage.svg"
+						src="/webdev.svg"
 						alt="Jeg liker å lage nettsider"
 						style={{ maxWidth: "100%" }}
 					/>

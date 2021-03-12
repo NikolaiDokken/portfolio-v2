@@ -2,8 +2,10 @@
 title: Algoritmevisualisering
 stack: React & CSS
 slug: algorithm-visualizer
-image: /nodes.svg
+thumb: /projects/nodes.svg
+featImg: ../images/featured/algovis.png
 color: red
+date: "2019-11-25T12:00:00"
 ---
 
 ### Hvordan virker korteste vei algoritmer?
