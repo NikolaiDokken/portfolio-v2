@@ -7,9 +7,11 @@ export default function Navbar() {
 		<nav>
 			<h1>Niko's koder</h1>
 			<div className="links">
-				<Link to="/">Hjem</Link>
-				<Link to="/projects">Prosjekter</Link>
-				<Link to="/about">Om meg</Link>
+				<Link exact to="/">
+					Hjem
+				</Link>
+				<Link to="/projects/">Prosjekter</Link>
+				<Link to="/about/">Om meg</Link>
 			</div>
 		</nav>
 	);
