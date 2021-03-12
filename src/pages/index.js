@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/Layout";
 import styles from "../styles/home.module.css";
+import getPrefixedPath from "../getPrefixedPath";
 
 export default function Home({ data }) {
 	console.log(data);
@@ -28,7 +29,7 @@ export default function Home({ data }) {
 				</div>
 				<div style={{ textAlign: "center" }}>
 					<img
-						src="/webdev.svg"
+						src={getPrefixedPath("/webdev.svg")}
 						alt="Jeg liker å lage nettsider"
 						style={{ maxWidth: "100%" }}
 					/>

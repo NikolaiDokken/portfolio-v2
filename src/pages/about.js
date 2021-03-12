@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import styles from "../styles/about.module.css";
 import jobs from "../experience/jobs.json";
 import moment from "moment";
+import getPrefixedPath from "../getPrefixedPath";
 
 export default function About() {
 	return (
@@ -93,7 +94,7 @@ function JobRow({ job }) {
 				}}
 			>
 				<img
-					src={job.logo}
+					src={getPrefixedPath(job.logo)}
 					alt="Infiniwell logo"
 					style={{
 						maxWidth: 50,
