@@ -18,8 +18,21 @@ export default function ProjectDetails({ data }) {
 					</Link>
 				</div>
 				<h2>{title}</h2>
-				<div style={{ display: "flex", flexDirection: "row" }}>
-					<h3>{stack}</h3>
+				<div
+					style={{
+						display: "flex",
+						flexDirection: "row",
+						alignItems: "center",
+					}}
+				>
+					<h3
+						style={{
+							padding: 0,
+							margin: "0 8px 0 0",
+						}}
+					>
+						{stack}
+					</h3>
 					<a href={github} target="_blank" rel="noreferrer">
 						<img
 							src="/github.png"
