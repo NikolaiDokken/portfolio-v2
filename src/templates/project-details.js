@@ -31,7 +31,6 @@ export default function ProjectDetails({ data }) {
 				<div className={styles.imageContainer}>
 					<GatsbyImage
 						image={featImg.childImageSharp.gatsbyImageData}
-						style={{ width: "100%" }}
 					/>
 				</div>
 				<div dangerouslySetInnerHTML={{ __html: html }} />
@@ -49,7 +48,7 @@ export const query = graphql`
 				title
 				featImg {
 					childImageSharp {
-						gatsbyImageData(layout: CONSTRAINED)
+						gatsbyImageData(layout: FULL_WIDTH)
 					}
 				}
 				github
