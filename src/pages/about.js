@@ -81,6 +81,9 @@ export default function About() {
 							IT: Har alltid vært en stor interesse. Uten den
 							hadde ikke denne siden eksistert
 						</li>
+						<li>
+							F1: Liker både å se på Formel 1 og å delta på online races
+						</li>
 					</ul>
 				</section>
 				<section>
