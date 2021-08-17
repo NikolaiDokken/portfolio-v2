@@ -46,7 +46,7 @@ export default function ProjectDetails({ data }) {
 						image={featImg.childImageSharp.gatsbyImageData}
 					/>
 				</div>
-				<div dangerouslySetInnerHTML={{ __html: html }} />
+				<div className={styles.projectMd} dangerouslySetInnerHTML={{ __html: html }} />
 			</div>
 		</Layout>
 	);

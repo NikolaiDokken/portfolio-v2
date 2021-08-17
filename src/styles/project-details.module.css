@@ -53,3 +53,7 @@
 	left: 0px;
 	top: 28px;
 }
+
+.projectMd a {
+	text-decoration: underline;
+}

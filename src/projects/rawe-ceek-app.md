@@ -10,7 +10,7 @@ github: https://github.com/NikolaiDokken/Rawe-Ceek
 ---
 
 ### Last ned
-🍎 [*iOS App Store*](https://apps.apple.com/no/app/rawe-ceek/id1576751856)
+🍎 [iOS App Store](https://apps.apple.com/no/app/rawe-ceek/id1576751856)
 
 🤖 Android - *Kommer snart*
 

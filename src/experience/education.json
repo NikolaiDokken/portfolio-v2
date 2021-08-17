@@ -18,10 +18,16 @@
 		"logo": "/edu/ntnu.png",
 		"positions": [
 			{
-				"title": "Dataingeniør, Bachelor",
-				"type": null,
+				"title": "Dataingeniør",
+				"type": "Bachelor",
 				"start": "2018-08-07T12:00:00",
 				"end": "2021-05-01T12:00:00"
+			},
+			{
+				"title": "Datateknologi",
+				"type": "Master",
+				"start": "2021-08-16T12:00:00",
+				"end": null
 			}
 		]
 	}

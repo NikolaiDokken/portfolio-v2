@@ -131,8 +131,8 @@ function JobRow({ job }) {
 		});
 		const months = maxDate.diff(minDate, "months");
 		return Math.floor(months / 12) > 0
-			? Math.floor(months / 12) + " år, " + (months % 12) + " mnd"
-			: months + " mnd";
+			? Math.floor(months / 12) + " år" + (months %12 > 0 ? ", " + (months % 12) + " mnd":"")
+			: months > 0 ? months + " mnd":"";
 	};
 
 	return (
