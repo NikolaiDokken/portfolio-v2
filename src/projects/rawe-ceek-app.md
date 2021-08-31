@@ -12,7 +12,7 @@ github: https://github.com/NikolaiDokken/Rawe-Ceek
 ### Last ned
 🍎 [iOS App Store](https://apps.apple.com/no/app/rawe-ceek/id1576751856)
 
-🤖 Android - *Kommer snart*
+🤖 [Google Play Store](https://play.google.com/store/apps/details?id=com.NikolaiDokken.rawe_ceek)
 
 
 ### Hvor vanskelig er det å publisere en app til App store?
